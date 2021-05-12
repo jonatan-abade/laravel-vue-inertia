@@ -1,18 +1,16 @@
 <template>
   <layout>
-    <div>Olá eu s ou a home {{ user }}</div>
+      <div>Estou no about</div>
   </layout>
 </template>
 
 <script>
-import Layout from "../Layout";
+import Layout from '../Layout'
 export default {
-  props: {
-    user: String,
-  },
   components: { Layout },
-};
+}
 </script>
 
 <style>
+
 </style>
